@@ -68,6 +68,7 @@ The trained model is saved in the `models/` directory as:
 ```bash
 models/heart_disease_model.joblib
 ```
+![Project Screenshot](./images/screenshot.png)
 
 ## Contribution
 Feel free to contribute! Fork the repository, create a feature branch, and submit a pull request.
