@@ -68,7 +68,27 @@ The trained model is saved in the `models/` directory as:
 ```bash
 models/heart_disease_model.joblib
 ```
-![Project Screenshot](./images/screenshot.png)
+## Output 
+
+Starting Heart Disease Prediction Program...
+=========================================
+
+Dataset shape: (5, 14)
+
+Model Accuracy: 80.00%
+Cross-validation accuracy: 88.25% (+/- 35.36%)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.43      0.75      0.55         8
+           1       0.67      0.33      0.44        12
+
+    accuracy                           0.80        60
+   macro avg       0.55      0.54      0.49        20
+weighted avg       0.57      0.50      0.48        20
+
+![Project Screenshot](https://github.com/AyushGorlawar/Heart-Disease-Prediction-Model/blob/main/Output.png)
 
 ## Contribution
 Feel free to contribute! Fork the repository, create a feature branch, and submit a pull request.
